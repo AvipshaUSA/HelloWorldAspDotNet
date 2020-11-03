@@ -72,3 +72,4 @@ C:\Users\Pradip\Desktop\lc101\C#\MVC\HelloWorldAspDotNet\obj\Debug\netcoreapp3.1
 C:\Users\Pradip\Desktop\lc101\C#\MVC\HelloWorldAspDotNet\obj\Debug\netcoreapp3.1\HelloWorldAspDotNet.pdb
 C:\Users\Pradip\Desktop\lc101\C#\MVC\HelloWorldAspDotNet\obj\Debug\netcoreapp3.1\HelloWorldAspDotNet.genruntimeconfig.cache
 C:\Users\Pradip\Desktop\lc101\C#\MVC\HelloWorldAspDotNet\obj\Debug\netcoreapp3.1\HelloWorldAspDotNet.csproj.CopyComplete
+C:\Users\Pradip\Desktop\lc101\C#\MVC\HelloWorldAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Hello\Index.cshtml.g.cs

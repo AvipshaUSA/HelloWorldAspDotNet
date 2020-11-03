@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+   // Layout = null; // this code will remove the heder footer layout.and will provide a simple layout. 
+}
+
+
+<!-- this below code was inside IActionResult Index(). -->
+<form method='POST' action='/helloworld/'>
+    <input type='text' name='name' />
+    <input type='submit' value='greet Me!' />
+
+    <select name='language'>
+        <option value='1'>Indian</option>
+        <option value='2'>English</option>
+        <option value='3'>French</option>
+        <option value='4'> Japanees</option>
+        <option value='5'>Spanish</option>
+    </select>
+</form>
+<!---------------------------------------------------------->

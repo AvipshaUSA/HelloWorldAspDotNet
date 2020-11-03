@@ -10,32 +10,27 @@ namespace HelloWorldAspDotNet.Controllers
     public class HelloController : Controller
     {
         [HttpGet]
-            //[Route("/helloworld")]
+           
             public IActionResult Index()
             {
-            string html = "<h1> Hello World!!!</h1>" + "<form method = 'POST' action = '/helloworld/'>" + " <input type = 'text' name = 'name'>" +
-            "    <input type = 'submit' value= 'greet Me!'  />" + "        <select name ='language'><option value = '1'>Indian<option value ='2'>English<option value ='3'>French <option value = '4'> Japanees <option value = '5'> Spanish" +
-          "</form>";
-                   
-                
-                return Content(html, "text/html");
+
+
+            return View(); // all the code moved to hello folder's index.cshtml file.
 
             }
 
         //------------------------------------------------------------------------------
         [HttpGet("welcome/{name?}")]
         [HttpPost]
-        [Route("helloworld/welcome/{name?}")]
+        [Route("helloworld/welcome/{name?}")] // helloworls/welcome 
         public IActionResult Welcome(string name = "WORLD")
         {
             return Content("<h1> Welcome to my App, " + name + " !!!<h1>", "text/html");
         }
 
-        // [HttpGet]
-        // [Route("helloworld/welcome/{name?}")]
-        //[HttpGet("message/{name?}")]
-        [HttpPost]
-      // [Route("/helloworld/")]
+        
+        [HttpPost] // helloworld
+    
         public IActionResult CreateMessage(string name = "world", string language = "language")
         {
             if (language == "1")
