@@ -3,7 +3,7 @@
 *@
 @{
 
-   // Layout = null; // this code will remove the heder footer layout.and will provide a simple layout. 
+   // Layout = null; // this code will remove the heder footer layout.and will provide a simple layout.
 }
 
 
@@ -13,11 +13,25 @@
     <input type='submit' value='greet Me!' />
 
     <select name='language'>
-        <option value='1'>Indian</option>
-        <option value='2'>English</option>
-        <option value='3'>French</option>
-        <option value='4'> Japanees</option>
-        <option value='5'>Spanish</option>
+        <option value='Namaste'>Indian</option>
+        <option value='Hello'>English</option>
+        <option value='Bonjour'>French</option>
+        <option value="Kon'nichiwa"> Japanees</option>
+        <option value='Hola'>Spanish</option>
     </select>
+    <p>Name: @ViewBag.vegitable</p> <!--ViewBag declared inside controller's Hello controller just above return view()-->
+    <ol>
+    <li>Item name: @ViewBag.name, Price: @ViewBag.price</li>
+
+    </ol>
+    @*Razor comments*@
+
+    <h3>Coffe Types</h3>
+    <ol>
+        @foreach(var item in ViewBag.newList)
+        {
+            <li>@item</li>
+        }
+        </ol>
 </form>
 <!---------------------------------------------------------->
