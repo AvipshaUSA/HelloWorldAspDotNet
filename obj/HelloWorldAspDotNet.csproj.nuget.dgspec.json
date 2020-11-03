@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pradip\\Desktop\\lc101\\C#\\HelloWorldAspDotNet\\HelloWorldAspDotNet.csproj": {}
+    "C:\\Users\\Pradip\\Desktop\\lc101\\C#\\MVC\\HelloWorldAspDotNet\\HelloWorldAspDotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pradip\\Desktop\\lc101\\C#\\HelloWorldAspDotNet\\HelloWorldAspDotNet.csproj": {
+    "C:\\Users\\Pradip\\Desktop\\lc101\\C#\\MVC\\HelloWorldAspDotNet\\HelloWorldAspDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pradip\\Desktop\\lc101\\C#\\HelloWorldAspDotNet\\HelloWorldAspDotNet.csproj",
+        "projectUniqueName": "C:\\Users\\Pradip\\Desktop\\lc101\\C#\\MVC\\HelloWorldAspDotNet\\HelloWorldAspDotNet.csproj",
         "projectName": "HelloWorldAspDotNet",
-        "projectPath": "C:\\Users\\Pradip\\Desktop\\lc101\\C#\\HelloWorldAspDotNet\\HelloWorldAspDotNet.csproj",
+        "projectPath": "C:\\Users\\Pradip\\Desktop\\lc101\\C#\\MVC\\HelloWorldAspDotNet\\HelloWorldAspDotNet.csproj",
         "packagesPath": "C:\\Users\\Pradip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pradip\\Desktop\\lc101\\C#\\HelloWorldAspDotNet\\obj\\",
+        "outputPath": "C:\\Users\\Pradip\\Desktop\\lc101\\C#\\MVC\\HelloWorldAspDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pradip\\AppData\\Roaming\\NuGet\\NuGet.Config",
